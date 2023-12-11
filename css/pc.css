@@ -186,7 +186,10 @@
         box-sizing: border-box;
         justify-content: space-between;
     }
-    .product > li{width: 50%;}
+    .product > li{
+        width: 50%;
+        display: flex;
+    }
     .info{width: 80%;}
 
 
