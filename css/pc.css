@@ -185,14 +185,21 @@
         /* padding: 0px 10%; */
         box-sizing: border-box;
         justify-content: space-between;
+        padding-left: 100px;
     }
     .product > li{
-        width: 50%;
         display: flex;
+        width: 50%;
+        /* border: 1px solid#f00; */
     }
-    .info{width: 80%;}
 
+    .info{
+        /* background: #999; */
+        width: 300px;
+    
+    }
 
+    .product > li > a > img{margin-right: 30px;}
     /* 펫스토리 */
     .story > article{
         /* width: 1200px;
